@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-left: 5em;
+}
+
+.quantity {
+    font-weight: 200;
+}
+
+.words {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1em;
+}
+
+.image {
+    width: 75px;
+    height: 75px;
+}
+
+.remove {
+    padding: 0.25em;
+    align-self: center;
+    border: 1px solid red;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.x {
+    color: red;
+    display: flex;
+    padding: 0.25em;
+}
+
+.closecontainer {
+    display: flex;
+    margin-left: 8em;
+    gap: 20px;
+}
+
+.totalprice {
+    align-self: center;
+}
+
+.totalAmount {
+    text-align: right;
+    margin-right: 30em;
+    margin-top: 2em;
+}
